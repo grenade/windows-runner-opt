@@ -21,6 +21,6 @@ cd "%USERPROFILE%"
 :start
 echo "%date% %time% - About to run runner.py"
 
-c:\opt\runner\Scripts\runner.exe -n 5 -H -c c:\opt\runner\runner.cfg c:\opt\runner\tasks.d
+%BUILDBOT_PATH%/Scripts/runner -n 5 -H -c c:\opt\runner\runner.cfg c:\opt\runner\tasks.d
 
 echo "%date% %time% - runner.py finished"
