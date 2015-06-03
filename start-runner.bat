@@ -14,4 +14,4 @@ SET PATH=%PATH%;%MOZ_TOOLS%\bin
 
 cd "%USERPROFILE%"
 
-%BUILDBOT_PATH%\Scripts\runner -n 5 -H -c c:\opt\runner\runner.cfg c:\opt\runner\tasks.d > c:\tmp\runner.log
+%BUILDBOT_PATH%\Scripts\runner -n 5 -H -c c:\opt\runner\runner.cfg c:\opt\runner\tasks.d 2> c:\tmp\runner.log
